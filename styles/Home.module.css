@@ -1,3 +1,7 @@
+.textarea::-webkit-input-placeholder {
+   padding: 30px 0;
+}
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -80,7 +84,7 @@ margin-top: 10px;
 }
 
 
-.textarea:focus {
+.textarea:focus{
     background: none repeat scroll 0 0 #FFFFFF;
     outline-width: 0;
 }
@@ -89,6 +93,9 @@ margin-top: 10px;
   margin-top:15px;
 }
 
+.messageinput{
+  margin-left:30px;
+}
 
 .description {
   line-height: 1.5;
@@ -149,12 +156,12 @@ margin-top: 10px;
 }
 
 .messages{
-  text-color:#fff000;
-  background:#fff000;
+  color:white;
+  text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkgreen;
 }
 
 .send{
-  background-color: #fff000; border-radius: 12px; color: #000; cursor: pointer; font-weight: bold; padding: 10px 15px; text-align: center; transition: 200ms; width: 100%; box-sizing: border-box; border: 0; font-size: 16px; user-select: none; -webkit-user-select: none; touch-action: manipulation; } .button-32:not(:disabled):hover, .button-32:not(:disabled):focus { outline: 0; background: #f4e603; box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15); } .button-32:disabled { filter: saturate(0.2) opacity(0.5); -webkit-filter: saturate(0.2) opacity(0.5); cursor: not-allowed;
+  background-color: #ffffff; border-radius: 40px; color: #000; cursor: pointer; font-weight: bold; padding: 10px 15px; text-align: center; transition: 200ms; width: 100%; box-sizing: border-box; border: 5; font-size: 16px; user-select: none; -webkit-user-select: none; touch-action: manipulation; } .button-32:not(:disabled):hover, .button-32:not(:disabled):focus { outline: 0; background: #f4e603; box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15); } .button-32:disabled { filter: saturate(0.2) opacity(0.5); -webkit-filter: saturate(0.2) opacity(0.5); cursor: not-allowed;
 }
 
 .connectWallet{
@@ -165,8 +172,12 @@ margin-top: 10px;
   margin: 20px;
 }
 
-.connectWallet:hover{
-  background-color:#31a300;color: #ffffff;
+.title, .nameinput{
+  margin: 30px;
+}
+
+.connectWallet:hover, .send:hover{
+  background-color:#31a300; color: #ffffff;
 }
 
 @media (max-width: 600px) {

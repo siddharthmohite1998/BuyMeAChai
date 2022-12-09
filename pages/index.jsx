@@ -168,7 +168,7 @@ export default function Home() {
 			</Head>
 
 			<main className={styles.main}>
-				<marquee><h1 className={styles.title}>Buy us a Masala chai!!!</h1></marquee>
+				<marquee><h1 className={styles.title}>Buy us a Masala Chai!!!</h1></marquee>
 
 				{currentAccount ? (
 					<div>
@@ -180,13 +180,13 @@ export default function Home() {
 								<input className={styles.textarea}
 									id="name"
 									type="text"
-									placeholder="blockchain"
+									placeholder="Blockchain"
 									onChange={onNameChange}
 								/>
 							</div>
 							<br />
 							<div>
-								<label>Send us a message</label>
+								<label className={styles.messageinput}>Send us a message</label>
 								<br />
 
 								<textarea className={styles.textarea}
