@@ -168,7 +168,7 @@ export default function Home() {
 			</Head>
 
 			<main className={styles.main}>
-				<h1 className={styles.title}>Buy us a Masala chai!!!</h1>
+				<marquee><h1 className={styles.title}>Buy us a Masala chai!!!</h1></marquee>
 
 				{currentAccount ? (
 					<div>
