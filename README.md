@@ -25,13 +25,15 @@ We have used replit to deploy and build the project. The project uses Next.js pr
 You can either download this repo as zip and upload on replit.
 
 You will have to make 2 changes
+<ul>
+<li>change the address in index.js file</li>
+<li>Add a .env file with</li>
+    <ul>
+    <li>GOERLI_URL</li>
+    <li>GOERLI_API_KEY</li>
+    <li>PRIVATE_KEY</li>
+    </ul>
+</ul>
 
-1)change the address in index.js file
-2) Add a .env file with
-    a)GOERLI_URL
-    b)GOERLI_API_KEY
-    c)PRIVATE_KEY
-
-
-#REPLIT URL WEBSITE LINK
-[WEBSITE LINK](https://buymeachai.siddharthmohit2.repl.co/)    
+# REPLIT URL WEBSITE LINK
+[BUYUSACHAI](https://buymeachai.siddharthmohit2.repl.co/)    
