@@ -10,10 +10,10 @@ We have used replit to deploy and build the project. The project uses Next.js pr
 
 | Name              |   CWID     |
 |-------------------|------------|
-| Siddharth Mohite | 885572107  |   
+| Siddharth Mohite  | 885572107  |   
 | Lency Lakhani     |  885196055 |  
 | Aman Rathore      |  885186841 |  
-| Santosh Burada    |            |  
+| Santosh Burada    |  885210591 |  
 
 
 
